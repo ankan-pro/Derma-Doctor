@@ -161,7 +161,7 @@ model = genai.GenerativeModel(
  
 system_prompt = """
 You are a medically-informed AI Dermatology Assistant. Your role is to analyze high-resolution images of human skin to identify potential dermatological conditions. You provide structured, clinically relevant insights to assist in early detection and guidance, but you are not a substitute for a licensed medical professional.
- 
+give response in bengali language
 Core Responsibilities:
 1. Detailed Analysis:
 - Thoroughly examine each image of human skin.
@@ -435,4 +435,5 @@ with chat_col:
     st.markdown("""
         </div>
     """, unsafe_allow_html=True)
+
  
